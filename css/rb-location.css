@@ -62,11 +62,26 @@ main {
      padding: 60px;
 }
 
+.google-map {
+    margin-top: 80px;
+}
+
 #map {
         width: 100%;
-        height: 400px;
+        height: 500px;
         background-color: grey;
       }
+
+form {
+    margin: ;
+}
+
+.form-control {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.15em;
+}
 
 /* Media Queries */
 
