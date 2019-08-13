@@ -3,54 +3,97 @@
 html, 
 body {
     font-family:"Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
-    color: #535a60;
+    color: #222323;
 }
 
 /* Start Reusable */
 
 h1 {
-    font-size: 20px;
-    color: black;
+    font-size: 1.25em;
 }
 
 h5{
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    padding-top: 30px;
     font-size: 1em;
+}
+
+h6 {
+    font-size: 1.25rem;
 }
 
 p {
    color: #535a60;
-}
+    text-align: justify;
+} 
 
 
 .hr {
     width: 50px;
-    margin: 25px;
+    margin: 30px auto;
 }
 
 .hr-center {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
-
-.hr-h5{
-    margin-right: 0;
-    margin-left: 0;
-}
-
-
 
 /* End Reusable */
 
 /* Major Elements */
 
-nav {
-    margin: 0 125px; 
+header {
+    height: 80px;
+    font-size: .9em;
+    letter-spacing: 1px;
 }
 
-main {
-     padding-top: 80px;
+nav {
+    letter-spacing: 1px;
 }
+
+
+main {
+    padding-top: 80px
+}
+
+
+.location-info{
+     padding: 60px;
+}
+
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+    .hr-h5 {
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .about-info {
+        padding: 0;
+        
+    }
+    main {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+    
 
 
 
