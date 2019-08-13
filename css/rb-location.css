@@ -1,0 +1,56 @@
+/* Global */
+
+html, 
+body {
+    font-family:"Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #535a60;
+}
+
+/* Start Reusable */
+
+h1 {
+    font-size: 20px;
+    color: black;
+}
+
+h5{
+    font-size: 1em;
+}
+
+p {
+   color: #535a60;
+}
+
+
+.hr {
+    width: 50px;
+    margin: 25px;
+}
+
+.hr-center {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+
+.hr-h5{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+/* End Reusable */
+
+/* Major Elements */
+
+nav {
+    margin: 0 125px; 
+}
+
+main {
+     padding-top: 80px;
+}
+
+
+
