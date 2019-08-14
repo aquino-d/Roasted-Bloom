@@ -8,7 +8,9 @@ body {
 
 /* Start Reusable */
 
-h1 {
+
+h1,
+h2 {
     font-size: 1.25em;
 }
 
@@ -45,28 +47,52 @@ header {
     height: 80px;
     font-size: .9em;
     letter-spacing: 1px;
+    z-index: 5;
+
+}
+
+.navbar-wrapper {
+    position:relative;
+    color: white;
+}
+
+header {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: rgb(0, 0, 0); opacity: 0.85;
+    width:100%;
 }
 
 nav {
     letter-spacing: 1px;
 }
 
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 main {
     padding-top: 80px
 }
 
-/*
-.jumbotron {
-    background-image: url(../img/about-roasted-bloom.jpg);
-    background-size: cover;
-    height: auto;
-    width: 100%;
-}
-*/
-
-.about-info{
+.landing-page-info{
      padding: 60px;
+}
+
+.featured-info,
+.featured-products {
+    margin-top: 90px;
+}
+
+.product-items {
+    padding: 7.5px 10px;
 }
 
 /* Media Queries */
@@ -80,7 +106,7 @@ main {
 }
 
 @media (max-width: 576px) {
-    .about-info {
+    .landing-page-info {
         padding: 0;
         
     }
