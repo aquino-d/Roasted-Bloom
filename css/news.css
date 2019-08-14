@@ -1,0 +1,100 @@
+/* Global */
+
+html, 
+body {
+    font-family:"Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #222323;
+}
+
+/* Start Reusable */
+
+h1 {
+    font-size: 1.25em;
+}
+
+h5{
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+   color: #535a60;
+    text-align: justify;
+} 
+
+.hr {
+    width: 50px;
+    margin: 30px auto;
+}
+
+.hr-center {
+    margin-bottom: 40px;
+}
+
+/* End Reusable */
+
+/* Major Elements */
+
+header {
+    height: 80px;
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+nav {
+    letter-spacing: 1px;
+}
+
+
+main {
+    padding-top: 80px
+}
+
+/*
+.jumbotron {
+    background-image: url(../img/about-roasted-bloom.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+*/
+
+.news-info{
+     padding: 60px;
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+    .hr-h5 {
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .news-info {
+        padding: 0;
+        
+    }
+    main {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+    
+
+
+
