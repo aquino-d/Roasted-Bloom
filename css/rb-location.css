@@ -1,0 +1,114 @@
+/* Global */
+
+html, 
+body {
+    font-family:"Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #222323;
+}
+
+/* Start Reusable */
+
+h1 {
+    font-size: 1.25em;
+}
+
+h5{
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+   color: #535a60;
+    text-align: justify;
+} 
+
+
+.hr {
+    width: 50px;
+    margin: 30px auto;
+}
+
+.hr-center {
+    margin-bottom: 40px;
+}
+
+/* End Reusable */
+
+/* Major Elements */
+
+header {
+    height: 80px;
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+nav {
+    letter-spacing: 1px;
+}
+
+
+main {
+    padding-top: 80px
+}
+
+
+.location-info{
+     padding: 60px;
+}
+
+.google-map {
+    margin-top: 80px;
+}
+
+#map {
+        width: 100%;
+        height: 500px;
+        background-color: grey;
+      }
+
+form {
+    margin: ;
+}
+
+.form-control {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.15em;
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+    .hr-h5 {
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .about-info {
+        padding: 0;
+        
+    }
+    main {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+    
+
+
+
