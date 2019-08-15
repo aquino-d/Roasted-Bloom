@@ -5,10 +5,8 @@ body {
     font-family:"Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
     color: #222323;
 }
-
+ 
 /* Start Reusable */
-
-
 h1,
 h2 {
     font-size: 1.25em;
@@ -29,6 +27,10 @@ p {
    color: #535a60;
     text-align: justify;
 } 
+
+a:hover{
+    text-decoration: none;
+}
 
 .hr {
     width: 50px;
@@ -92,6 +94,14 @@ main {
 
 .product-items {
     padding: 7.5px 10px;
+}
+
+.collections {
+    margin-bottom: 10px;
+}
+
+.coffee-name {
+    font-size: .9rem;
 }
 
 /* Media Queries */

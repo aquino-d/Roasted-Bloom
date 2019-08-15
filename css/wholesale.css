@@ -28,6 +28,9 @@ p {
     text-align: justify;
 } 
 
+a:hover{
+    text-decoration: none;
+}
 
 .hr {
     width: 50px;
