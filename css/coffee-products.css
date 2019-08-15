@@ -1,5 +1,5 @@
 /* Global */
-
+ 
 html, 
 body {
     font-family:"Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
@@ -7,9 +7,9 @@ body {
 }
 
 /* Start Reusable */
-
+ 
 h1 {
-    font-size: 1.25em;
+    font-size: 2.25em;
 }
 
 h5{
@@ -34,7 +34,7 @@ a:hover{
 
 .hr {
     width: 50px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .hr-center {
@@ -61,30 +61,20 @@ main {
 }
 
 
-.wholesale-info{
+.coffee-info{
      padding: 60px;
 }
 
-.google-map {
-    margin-top: 80px;
+#product-name,
+#product-price {
+    margin: 0 auto;
 }
 
-#map {
-        width: 100%;
-        height: 500px;
-        background-color: grey;
-      }
-
-form {
-    margin: ;
+#product-price {
+    margin-top: 30px;
+    font-size: 1.5rem;
 }
 
-.form-control {
-    background-color: #f6f6f6;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.15em;
-}
 
 /* Media Queries */
 
@@ -97,7 +87,7 @@ form {
 }
 
 @media (max-width: 576px) {
-    .wholesale-info {
+    .coffee-info {
         padding: 0;
         
     }
